@@ -73,17 +73,22 @@ cd fitness-tracker
 ```
 npm create vite@latest
 ```
+![Screenshot 2025-02-11 044300](https://github.com/user-attachments/assets/e5bf7629-b8a9-41d6-8a27-ee01595f8c6b)
 
 ## 3. Install dependencies:
 - Install the required dependencies:
 ```
 npm install
 ```
+![Screenshot 2025-02-11 044307](https://github.com/user-attachments/assets/725ca815-552a-48e8-a126-e158aa47bee2)
+
 - Install Axios for API requests and JSON Server for the mock backend:
 ```
 npm install axios
 npm install json-server --save-dev
 ```
+![Screenshot 2025-02-11 044329](https://github.com/user-attachments/assets/bf5e08f3-ad4d-4d64-8fee-c6c9f2ea8d88)
+![Screenshot 2025-02-11 044340](https://github.com/user-attachments/assets/1ae75c4e-d8f1-4211-b776-11de9c8792e8)
 
 ## 4. Set up the mock backend:
 - Create a `db.json` file in the root directory (if not already present):
