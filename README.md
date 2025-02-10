@@ -102,6 +102,7 @@ npm install json-server --save-dev
 ```
 npm run server
 ```
+![Screenshot 2025-02-11 053812](https://github.com/user-attachments/assets/9b67bc00-958f-4a37-be64-1dc29aef007d)
 
 - This will run the mock backend at `http://localhost:3001`.
 
@@ -109,11 +110,13 @@ npm run server
 ```
 npm run dev
 ```
+![Screenshot 2025-02-11 043955](https://github.com/user-attachments/assets/93e6e5bb-fc08-40da-923b-306a509ce145)
 
 - This will start the Vite development server at `http://localhost:5173`.
 
 ## 6. Open the application:
 - Visit `http://localhost:5173` in your browser to view the Fitness Tracker app.
+![Screenshot 2025-02-11 044001](https://github.com/user-attachments/assets/638d85ab-e811-4e11-a157-c1829a8a0c60)
 
 ## How to Use the App 🖱️
 ### 1. Add a Workout:
