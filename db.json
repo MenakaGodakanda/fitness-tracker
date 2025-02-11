@@ -1,0 +1,10 @@
+{
+  "workouts": [
+    {
+      "id": "294f",
+      "name": "Cycling",
+      "duration": 45,
+      "caloriesBurned": 500
+    }
+  ]
+}
