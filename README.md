@@ -118,9 +118,12 @@ npm run dev
 - Visit `http://localhost:5173` in your browser to view the Fitness Tracker app.
 ![Screenshot 2025-02-11 044001](https://github.com/user-attachments/assets/638d85ab-e811-4e11-a157-c1829a8a0c60)
 
-## How to Use the App 🖱️
+## How to Use the App
 ### 1. Add a Workout:
 - Fill out the form with the workout name, duration, and calories burned.
+  - **Workout Name**: A text input field to enter the name of the workout (e.g., "Running", "Cycling").
+  - **Duration (minutes)**: A number input field to enter the duration of the workout in minutes.
+  - **Calories Burned**: A number input field to enter the estimated calories burned during the workout.
 - Click **"Add Workout"** to save the workout.
 
 ### 2. View Workouts:
@@ -128,6 +131,22 @@ npm run dev
 
 ### 3. Delete a Workout:
 - Click the **"Delete"** button next to a workout to remove it from the list.
+
+## Example of Fitness Tracker
+
+### 1. Add a Workout
+- Fill out the form and click **"Add Workout"**. Verify that the workout appears in the list.
+  - Workout Name: Cycling
+  - Duration: 45 minutes
+  - Calories Burned: 500
+  
+- Open the `db.json` file and `http://localhost:3001/workouts` to see the workout data being updated in real-time.
+
+### 2. Delete a Workout
+- Click the **"Delete"** button next to a workout. Verify that the workout is removed from the list.
+  - Deletes the "Running" workout:
+  
+- Open the `db.json` file and `http://localhost:3001/workouts` to see the workout data being updated in real-time.
 
 ## Project Structure
 ```
