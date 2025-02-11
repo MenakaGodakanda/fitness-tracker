@@ -136,17 +136,23 @@ npm run dev
 
 ### 1. Add a Workout
 - Fill out the form and click **"Add Workout"**. Verify that the workout appears in the list.
-  - Workout Name: Cycling
-  - Duration: 45 minutes
-  - Calories Burned: 500
-  
+  - Workout Name: `Cycling`
+  - Duration: `45 minutes`
+  - Calories Burned: `500`
+  ![Screenshot 2025-02-11 044137](https://github.com/user-attachments/assets/b85e2871-5b5d-4808-a3fd-af3b1b6ef800)
+
 - Open the `db.json` file and `http://localhost:3001/workouts` to see the workout data being updated in real-time.
+![Screenshot 2025-02-11 044155](https://github.com/user-attachments/assets/e3d2eb4d-2b69-4dcb-a43f-20682bf45338)
+![Screenshot 2025-02-11 044143](https://github.com/user-attachments/assets/d6f0e2a0-cdd8-4e90-a56d-d7a6bd40d11a)
 
 ### 2. Delete a Workout
 - Click the **"Delete"** button next to a workout. Verify that the workout is removed from the list.
-  - Deletes the "Running" workout:
-  
+  - Deletes the `Running` workout
+  ![Screenshot 2025-02-11 044220](https://github.com/user-attachments/assets/5515c199-da2a-4850-b917-04775957fd21)
+
 - Open the `db.json` file and `http://localhost:3001/workouts` to see the workout data being updated in real-time.
+![Screenshot 2025-02-11 044234](https://github.com/user-attachments/assets/65764bed-e0cd-44e1-893f-2ea53f366312)
+![Screenshot 2025-02-11 044226](https://github.com/user-attachments/assets/4ee75a87-6b04-445e-aa79-d8b94d689bbd)
 
 ## Project Structure
 ```
